@@ -16,6 +16,10 @@ $(document).on('click', '#navigation .navigation-item', function (event) {
             $('#marin').show();
             $('#nav-marin').parent().addClass('active');
             break;
+        case 'nav-about-piran':
+            $('#about-piran').show();
+            $('#nav-about-piran').parent().addClass('active');
+            break;
         case 'nav-contact':
             $('#contact').show();
             $('#nav-contact').parent().addClass('active');
@@ -42,24 +46,37 @@ $('.map-container')
 // Text
 $(document).on('click', '#language-dropdown', function (event) {
     let id = event.target.id;
-    let text_model = undefined;
     if(id == 'english-lang'){
         if(current_language == ENGLISH_LANGUAGE){
             return;
         }
         current_language = ENGLISH_LANGUAGE;
-        $.getJSON( "http://nonomario.github.io/res/texts/english_text.json", function( obj ) {
-            text_model = obj;
+        text_model = $.getJSON( "https://nonomario.github.io/res/texts/english_text.json", function( obj ) {
+            setText(obj);
           });
     } else {
         if(current_language == SLOVENIAN_LANGUAGE){
             return
         }
         current_language = SLOVENIAN_LANGUAGE;
-        $.getJSON( "http://nonomario.github.io/res/texts/slovenian_text.json", function( obj ) {
-            text_model = obj;
+        $.getJSON( "https://nonomario.github.io/res/texts/slovenian_text.json", function( obj ) {
+            setText(obj);
           });
     }
+});
+
+function setText(model){
     $('.text').empty();
 
-});
+    // Navigation
+    $('#brand-text').append(model.navigation.brand);
+    $('#nav-home').append(model.navigation.home);
+    $('#dropdownId').append(model.navigation.apartmant_dropdown);
+    $('#nav-nono-mario').append(model.navigation.nono_mario);
+    $('#nav-marin').append(model.navigation.marin);
+    $('#nav-about-piran').append(model.navigation.about_piran);
+    $('#nav-contact').append(model.navigation.contact);
+
+    // Footer
+    $('#footer-text').append(model.navigation.footer_text);
+}

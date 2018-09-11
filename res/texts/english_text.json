@@ -2,11 +2,11 @@
     "navigation" : {
         "brand": "Nono Mario",
         "home": "Home",
-        "apartmant-dropdown" : "Apartmants",
-        "nono-mario": "Nono Mario",
+        "apartmant_dropdown" : "Apartmants",
+        "nono_mario": "Nono Mario",
         "marin": "Marin",
-        "about-piran": "About Piran",
+        "about_piran": "About Piran",
         "contact": "Contact"
     },
-    "footer-text":"Footer Text"
+    "footer_text":"Footer Text"
 }

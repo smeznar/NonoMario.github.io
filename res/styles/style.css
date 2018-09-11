@@ -1,0 +1,51 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    background-color: #03244b;
+}
+
+.carousel-inner {
+    max-height: 750px;
+    position: relative;
+    width: 100%;
+}
+
+.carousel-inner > .carousel-item > img {
+    max-height: 750px;
+    width: auto;
+    display: block;
+}
+
+.content-style {
+    background-color: #a7d0ee;
+    /*padding-top: 55px;*/
+}
+
+.map-container iframe{
+    pointer-events: none;
+}
+
+.map-container iframe.clicked{
+	pointer-events: auto;
+}
+
+.language-chooser{
+    position: fixed;
+    right: 0%;
+    top: 8%;
+}
+
+footer {
+    background-color: #03244b;
+    color: white; 
+}
+
+.row{
+    padding-top: 50px; 
+}
+
+.dropdown-menu > li{
+    width: 30px;
+}

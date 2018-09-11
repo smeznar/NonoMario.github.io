@@ -1,0 +1,12 @@
+{
+    "navigation" : {
+        "brand": "Nono Mario",
+        "home": "Domov",
+        "apartmant-dropdown" : "Apartmaji",
+        "nono-mario": "Nono Mario",
+        "marin": "Marin",
+        "about-piran": "O Piranu",
+        "contact": "Kontakt"
+    },
+    "footer-text":"Nozno besedilo haha"
+}

@@ -1,0 +1,12 @@
+{
+    "navigation" : {
+        "brand": "Nono Mario",
+        "home": "Home",
+        "apartmant-dropdown" : "Apartmants",
+        "nono-mario": "Nono Mario",
+        "marin": "Marin",
+        "about-piran": "About Piran",
+        "contact": "Contact"
+    },
+    "footer-text":"Footer Text"
+}

@@ -1,0 +1,55 @@
+{
+    "home": [
+
+    ],
+    "nono_mario": [
+        {
+            "dir": "res/nono_mario/dnevna1.jpg"
+        },
+        {
+            "dir": "res/nono_mario/dnevna2.jpg"
+        },
+        {
+            "dir": "res/nono_mario/dnevna3.jpg"
+        },
+        {
+            "dir": "res/nono_mario/dnevna4.jpg"
+        },
+        {
+            "dir": "res/nono_mario/dnevna5.jpg"
+        },
+        {
+            "dir": "res/nono_mario/dnevna6.jpg"
+        },
+        {
+            "dir": "res/nono_mario/kuhinja1.jpg"
+        },
+        {
+            "dir": "res/nono_mario/kuhinja2.jpg"
+        },
+        {
+            "dir": "res/nono_mario/kuhinja3.jpg"
+        },
+        {
+            "dir": "res/nono_mario/kuhinja4.jpg"
+        },
+        {
+            "dir": "res/nono_mario/kuhinja5.jpg"
+        },
+        {
+            "dir": "res/nono_mario/kot1.jpg"
+        },
+        {
+            "dir": "res/nono_mario/kot2.jpg"
+        },
+        {
+            "dir": "res/nono_mario/kopalnica.jpg"
+        }
+    ],
+    "marin": [
+
+    ],
+    "about_piran": [
+
+    ]
+}

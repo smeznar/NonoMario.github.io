@@ -35,10 +35,68 @@
         ]
     },
     "marin": {
-
+        "text_sections": [
+            {
+                "text": "A modern apartment »Marin« that is located in the center of Piran, just a few streets from Tartini square, 150 m from the beach and just a few footsteps away from cafes, restaurants, library, museum, food market..."
+            },
+            {
+                "title": "The Apartment",
+                "text": "Apartment"
+            },
+            {
+                "title": "Guest Access",
+                "text": "Access"
+            },
+            {
+                "title": "Interaction With Guests",
+                "text": "Interaction"
+            },
+            {
+                "title": "Other Things To Note",
+                "text": "Other"
+            }
+        ]
     },
     "about_piran": {
-
+        "text": [
+            {
+                "text": "Piran is a beautiful coastal town in the south-west corner of Slovenia."
+            }
+        ],
+        "tartini": [
+            {
+                "title": "Tartini Square",
+                "text": "Main square in Piran."
+            }
+        ],
+        "venetian_house": [
+            {
+                "title": "Venetian House ('Benečanka')",
+                "text": "Most iconic house in Piran."
+            }
+        ],
+        "walls": [
+            {
+                "title": "Piran's Walls",
+                "text": "Piran has walls all over the town."
+            }
+        ],
+        "churches": [
+            {
+                "title": "Churches Of Piran",
+                "text": "Piran has a lot of churches."
+            },
+            {
+                "title": "St. George's Church",
+                "text": "The church is the biggest in Piran. It's on top of Piran."
+            }
+        ],
+        "vicinity": [
+            {
+                "title": "Other Activities around Piran",
+                "text": "You can do a lot in Piran"
+            }
+        ]
     },
     "contact": {
 

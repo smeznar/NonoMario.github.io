@@ -1,26 +1,49 @@
 body{
     font-family: 'Times New Roman', Times, serif;
+    background-color: #03244b;
 }
 
 nav {
     background-color: #03244b;
 }
 
-.carousel-inner {
-    max-height: 750px;
-    position: relative;
-    width: 100%;
-}
+/* Carousel */
 
-.carousel-inner > .carousel-item > img {
-    max-height: 750px;
-    width: auto;
+.carousel-item > img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
     display: block;
 }
 
+/* Content */
+
 .content-style {
-    background-color: #a7d0ee;
+    background-color: #a7d0ee /*#ffffff*/;
     padding-top: 55px;
+}
+
+/* Text Section */
+
+.text-section {
+    padding: 20px;
+}
+
+.text-section > div {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-section > div > h3 {
+    padding: 5px;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Map */
+.map-container{
+    width: 100%;
 }
 
 .map-container iframe{
@@ -31,21 +54,58 @@ nav {
 	pointer-events: auto;
 }
 
+/* Language Chooser */
+
 .language-chooser{
     position: fixed;
-    right: 0%;
-    top: 8%;
+    right: 5px;
 }
+
+/* Footer */
 
 footer {
     background-color: #03244b;
     color: white; 
 }
 
-.row{
-    padding-top: 50px; 
+/* Size Dependent */
+
+@media (min-width: 1200px) {
+    .language-chooser{
+        top: 60px;
+    }
 }
 
-.dropdown-menu > li{
-    width: 30px;
+@media (max-width: 1199.98px) { 
+    .language-chooser{
+        top: 60px;
+    }
+}
+
+@media (max-width: 991.98px) { 
+    .language-chooser{
+        top: 70px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .language-chooser{
+        top: 60px;
+    }
+}
+
+/*
+@media (max-width: 575.98px) { 
+}*/
+
+/* Other */
+
+.no-margin{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.no-padding{
+    padding-left: 0px;
+    padding-right: 0px;
 }

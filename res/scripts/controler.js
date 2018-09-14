@@ -38,7 +38,7 @@ function setupOnClickBehaviour() {
                 $('#nav-home').parent().addClass('active');
         }
 
-        if ($(window).width() <= 970 && id != '') {
+        if ($(window).width() <= 970 && id != 'brand-text') {
             $('.navbar-toggler').click();
         }
     });
@@ -80,11 +80,11 @@ function setupOnClickBehaviour() {
 
 function setupCarousels() {
     $.getJSON("https://nonomario.github.io/res/carousel_picture_dirs.json", function (obj) {
-        setPictures(obj.nono_mario,'nono-mario');
+        setPictures(obj.nono_mario, 'nono-mario');
     });
 }
 
-function setPictures(model,id) {
+function setPictures(model, id) {
     // Home
 
     // Nono Mario
@@ -94,17 +94,17 @@ function setPictures(model,id) {
         let caption = '';
         let title = '';
         let description = '';
-        if(element.hasOwnProperty('title')){
-            title = '<h3>'+ element.title +'</h3>';
+        if (element.hasOwnProperty('title')) {
+            title = '<h3>' + element.title + '</h3>';
         }
-        if(element.hasOwnProperty('description')){
-            description = '<p>'+ element.description +'</p>';
+        if (element.hasOwnProperty('description')) {
+            description = '<p>' + element.description + '</p>';
         }
-        if(title !== '' || description !== ''){
-            caption = '<div class="carousel-caption d-none d-md-block">'+ title + description +'</div>';
+        if (title !== '' || description !== '') {
+            caption = '<div class="carousel-caption d-none d-md-block">' + title + description + '</div>';
         }
-        $('#carousel-' + id + '-pictures').append('<div class="carousel-item"><img src="'+ element.dir +'" class="mx-auto" alt="' + element.alt + '">'
-        + caption +'</div>');
+        $('#carousel-' + id + '-pictures').append('<div class="carousel-item"><img src="' + element.dir + '" class="mx-auto" alt="' + element.alt + '">' +
+            caption + '</div>');
         count++;
     });
     $('#carousel-' + id + '-indicators li').first().addClass('active');
@@ -129,12 +129,20 @@ function setText(model) {
 
     // Nono Mario
 
-    // TODO: Make into a function
-    addTextToTextSection(model.nono_mario.text_sections,'#nono-mario-text-section');
+    addTextToTextSection(model.nono_mario.text_sections, '#nono-mario-text-section');
 
     // Marin
 
+    addTextToTextSection(model.marin.text_sections, '#marin-text-section');
+
     // About Piran
+
+    addTextToTextSection(model.about_piran.text, '#about-piran-text');
+    addTextToTextSection(model.about_piran.tartini, '#tartini-square');
+    addTextToTextSection(model.about_piran.venetian_house, '#venetian-house');
+    addTextToTextSection(model.about_piran.walls, '#walls');
+    addTextToTextSection(model.about_piran.churches, '#churches');
+    addTextToTextSection(model.about_piran.vicinity, '#vicinity');
 
     // Contact
 
@@ -142,16 +150,16 @@ function setText(model) {
     $('#footer-text').append(model.footer_text);
 }
 
-function addTextToTextSection(model,id){
+function addTextToTextSection(model, id) {
     model.forEach(function (element) {
         let title = '';
         let text = '';
         let section_text = '';
-        if(element.hasOwnProperty('title')){
-            title = '<h3>'+ element.title +'</h3>';
+        if (element.hasOwnProperty('title')) {
+            title = '<h3>' + element.title + '</h3>';
         }
-        if(element.hasOwnProperty('text')){
-            text = '<p>'+ element.text +'</p>';
+        if (element.hasOwnProperty('text')) {
+            text = '<p>' + element.text + '</p>';
             text = text.replace(/\n/g, '<br>');
         }
         section_text = '<div>' + title + text + '</div>';

@@ -68,6 +68,20 @@
 
     ],
     "about_piran": [
-
+        {
+            "dir": "res/nono_mario/kuhinja5.jpg",
+            "alt": "Kuhinja 5",
+            "title" : "Placeholder image"
+        },
+        {
+            "dir": "res/nono_mario/kot1.jpg",
+            "alt": "Kot v Kuhinji 1",
+            "title" : "Placeholder image"
+        },
+        {
+            "dir": "res/nono_mario/kot2.jpg",
+            "alt": "Kot v Kuhinji 2",
+            "title" : "Placeholder image"
+        }
     ]
 }

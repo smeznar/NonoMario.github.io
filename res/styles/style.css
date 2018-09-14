@@ -23,7 +23,19 @@ nav {
     padding-top: 55px;
 }
 
+/* Images */
+
+.single-image{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
 /* Text Section */
+
+.source-section{
+    
+}
 
 .text-section {
     padding: 20px;

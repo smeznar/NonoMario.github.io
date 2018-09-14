@@ -81,6 +81,8 @@ function setupOnClickBehaviour() {
 function setupCarousels() {
     $.getJSON("https://nonomario.github.io/res/carousel_picture_dirs.json", function (obj) {
         setPictures(obj.nono_mario, 'nono-mario');
+        setPictures(obj.marin,'marin');
+        setPictures(obj.about_piran,'about-piran');
     });
 }
 

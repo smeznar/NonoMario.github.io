@@ -27,14 +27,20 @@ nav {
 
 .single-image{
     display: block;
+    margin: auto;
     width: 100%;
+    max-width: 800px;
     height: 100%;
 }
 
 /* Text Section */
 
 .source-section{
-    
+    padding: 20px;
+}
+
+.link{
+    padding: 20px;
 }
 
 .text-section {

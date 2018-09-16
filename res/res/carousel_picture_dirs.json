@@ -1,0 +1,167 @@
+{
+    "home": [
+
+    ],
+    "nono_mario": [
+        {
+            "dir": "res/nono_mario/dnevna1.jpg",
+            "alt": "Dnevna soba 1",
+            "title" : "Dnevna Soba"
+        },
+        {
+            "dir": "res/nono_mario/dnevna2.jpg",
+            "alt": "Dnevna soba 2",
+            "description": "Pogled proti kopalnici."
+        },
+        {
+            "dir": "res/nono_mario/dnevna3.jpg",
+            "alt": "Dnevna soba 3",
+            "title": "Spet Dnevna Soba",
+            "description": "Tokrat pogled na posteljo."
+        },
+        {
+            "dir": "res/nono_mario/dnevna4.jpg",
+            "alt": "Dnevna soba 4"
+        },
+        {
+            "dir": "res/nono_mario/dnevna5.jpg",
+            "alt": "Dnevna soba 5"
+        },
+        {
+            "dir": "res/nono_mario/dnevna6.jpg",
+            "alt": "Dnevna soba 6"
+        },
+        {
+            "dir": "res/nono_mario/kuhinja1.jpg",
+            "alt": "Kuhinja 1"
+        },
+        {
+            "dir": "res/nono_mario/kuhinja2.jpg",
+            "alt": "Kuhinja 2"
+        },
+        {
+            "dir": "res/nono_mario/kuhinja3.jpg",
+            "alt": "Kuhinja 3"
+        },
+        {
+            "dir": "res/nono_mario/kuhinja4.jpg",
+            "alt": "Kuhinja 4"
+        },
+        {
+            "dir": "res/nono_mario/kuhinja5.jpg",
+            "alt": "Kuhinja 5"
+        },
+        {
+            "dir": "res/nono_mario/kot1.jpg",
+            "alt": "Kot v Kuhinji 1"
+        },
+        {
+            "dir": "res/nono_mario/kot2.jpg",
+            "alt": "Kot v Kuhinji 2"
+        },
+        {
+            "dir": "res/nono_mario/kopalnica.jpg",
+            "alt": "Kopalnica"
+        }
+    ],
+    "marin": [
+        {
+            "dir": "res/marin/marin3.jpg",
+            "alt": "Spalnica 1"
+        },
+        {
+            "dir": "res/marin/marin4.jpg",
+            "alt": "Spalnica 2"
+        },
+        {
+            "dir": "res/marin/marin6.jpg",
+            "alt": "Spalnica 2"
+        },
+        {
+            "dir": "res/marin/marin7.jpg",
+            "alt": "Spalnica 3"
+        },
+        {
+            "dir": "res/marin/marin8.jpg",
+            "alt": "Spalnica 4"
+        },
+        {
+            "dir": "res/marin/marin9.jpg",
+            "alt": "Spalnica 5"
+        },
+        {
+            "dir": "res/marin/marin11.jpg",
+            "alt": "Hodnik 1"
+        },
+        {
+            "dir": "res/marin/marin14.jpg",
+            "alt": "Stranisce 1"
+        },
+        {
+            "dir": "res/marin/marin15.jpg",
+            "alt": "Stranisce 2"
+        },
+        {
+            "dir": "res/marin/marin16.jpg",
+            "alt": "Stranisce 3"
+        },
+        {
+            "dir": "res/marin/marin17.jpg",
+            "alt": "Stranisce 4"
+        },
+        {
+            "dir": "res/marin/marin18.jpg",
+            "alt": "Stranisce 5"
+        },
+        {
+            "dir": "res/marin/marin19.jpg",
+            "alt": "Hodnik 2"
+        },
+        {
+            "dir": "res/marin/marin21.jpg",
+            "alt": "Dneva Soba 1"
+        },
+        {
+            "dir": "res/marin/marin23.jpg",
+            "alt": "Dnevna Soba 2"
+        },
+        {
+            "dir": "res/marin/marin24.jpg",
+            "alt": "Dnevna Soba 3"
+        },
+        {
+            "dir": "res/marin/marin26.jpg",
+            "alt": "Kuhinja 1"
+        },
+        {
+            "dir": "res/marin/marin28.jpg",
+            "alt": "Kuhinja 2"
+        },
+        {
+            "dir": "res/marin/marin29.jpg",
+            "alt": "Kuhinja 3"
+        },
+        {
+            "dir": "res/marin/marin31.jpg",
+            "alt": "Kuhinja 4"
+        },
+        {
+            "dir": "res/marin/marin34.jpg",
+            "alt": "Dnevna Soba 4"
+        }
+    ],
+    "about_piran": [
+        {
+            "dir": "res/about_piran/benecanka.jpg",
+            "alt": "Benecanka"
+        },
+        {
+            "dir": "res/about_piran/tartinijev_trg.jpg",
+            "alt": "Tartinijev Trg"
+        },
+        {
+            "dir": "res/about_piran/obzidje.jpg",
+            "alt": "Tartinijev Trg"
+        }
+    ]
+}

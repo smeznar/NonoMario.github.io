@@ -1,6 +1,6 @@
 {
     "navigation": {
-        "brand": "Nono Mario",
+        "brand": "Apartments Nono Mario",
         "home": "Home",
         "apartmant_dropdown": "Apartments",
         "nono_mario": "Nono Mario",
@@ -17,7 +17,7 @@
                 "text": "A modern apartment »Nono Mario« that is located in the center of Piran, just a few streets from Tartini square, 150 m from the beach and just a few footsteps away from cafes, restaurants, library, museum, food market..."
             },
             {
-                "title": "The Apartment",
+                "title": "About The Apartment",
                 "text": "The apartment, located in an old town house on the first floor is recently renovated, big enough for 2 to 3 people (36m²). It has living room, kitchen and a bathroom. The living room has two pull-out sofas, one for two people and one for another one, it also has CATV (cabel television) and is air-conditioned. Kitchen is fully equipped with an oven, fridge, freezer, microwave oven, toaster and a dishwasher. In the bathroom there is a big shower with shower gel and shampoo, liquid soap and a hairdryer.\nThere is Wi-Fi internet all over the apartment.\nFresh bed linen and towels are available in the apartment on your check-in. Cleaning fee is included in price.\nEverything you need is in walking distance, the citizens are really friendly and children can safely play on the Tartini square, because there are no vehicles."
             },
             {
@@ -40,7 +40,7 @@
                 "text": "A newly renovated apartment in the very heart of Piran, just a few steps from the main square and the food market."
             },
             {
-                "title": "The Apartment",
+                "title": "About The Apartment",
                 "text": "The apartment, located on the first floor of an old house is recently renovated, big enough for 4 to 6 people (58m²).\nIt has a corridor which leads to the bathroom, bedroom and the living room. In the bathroom there is a shower with shower gel and shampoo, liquid soap and a hairdryer. The bedroom has a bed for two people and a pull-out sofa, which can be turned into a bed for two people. The bedroom is air-conditioned. In the living room, which is air-conditioned, there is a table for dining, a pull-out sofa, which can be turned into a bed for two people and CATV (cabel television). The living room is connected to a well equipped kitchen. In the kitchen there is an oven, fridge, freezer, microwave oven, coffee maker, water heating kettle, toaster, and a dishwasher.\nThere is Wi-Fi internet all over the apartment.\nFresh bed linen and towels are available in the apartment on your check-in. Cleaning fee is included in price.\nEverything you need is in walking distance, the citizens are really friendly and children can safely play on the Tartini square, because there are no vehicles."
             },
             {
@@ -71,8 +71,8 @@
         ],
         "venetian_house": [
             {
-                "title": "Venetian House ('Benečanka')",
-                "text": "One of the important and most iconic houses on Tartini square is the venetian house. It’s a red gothic style house made in mid 15th century.\nThe house was build by a wealthy venetian merchant Dell Bello, who fell in love with a simple girl from Piran and build her this house. When he was away the jealous citizens from Piran started to gossip. The gossip was mean and left the poor girl very miserable. One day the couple decided to put a plaque on the front side of the house saying: ‘’Lasa pur dir’’ (Let them talk).\nNow the ground floor of the house serves as the store, where you can buy many different products made with salt from salt pans near Piran."
+                "title": "Venetian House (''Benečanka'')",
+                "text": "One of the important and most iconic houses on Tartini square is the venetian house. It’s a red, gothic style house made in mid 15th century.\nThe house was build by a wealthy venetian merchant Dell Bello, who fell in love with a simple girl from Piran and gave her this house. When he was away the jealous citizens from Piran started to gossip. The gossip was mean and left the poor girl very miserable. One day the couple decided to put a plaque on the front side of the house saying: ‘’Lasa pur dir’’ (Let them talk).\nNow the ground floor of the house serves as the store, where you can buy many different products made with salt from salt pans near Piran."
             }
         ],
         "walls": [
@@ -94,7 +94,7 @@
         "vicinity": [
             {
                 "title": "Other Activities around Piran",
-                "text": "There are a lot more places to visit and a lot more activities in Piran. Places like: First of May square, aquarium Piran, Mediahouse Pyrhani, salt pans, maritime museum Sergej Mašera, Fiesa lake… You can also go to one of the nice beaches, go jogging, for a bike ride or relax in one of the wellness centers."
+                "text": "There are a lot more places to visit and a lot more activities in Piran and it’s surroundings. Places like: Portorož, First of May square, aquarium Piran, Mediahouse Pyrhani, salt pans, maritime museum Sergej Mašera, Fiesa lake… You can also go to one of the nice beaches, go jogging, for a bike ride or relax in one of the wellness centers."
             }
         ]
     },

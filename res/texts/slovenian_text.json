@@ -1,6 +1,6 @@
 {
     "navigation" : {
-        "brand": "Nono Mario",
+        "brand": "Apartmaji Nono Mario",
         "home": "Domov",
         "apartmant_dropdown" : "Apartmaji",
         "nono_mario": "Nono Mario",
@@ -17,28 +17,86 @@
                 "text": "Modern apartma »Nono Mario« se nahaja v centru Pirana, le nekaj ulic od Tartinijevega trga, 150 m od morja in le nekaj korakov od raznih restavracij, lokalov, knjižnjice, muzejev, tržnice..."
             },
             {
-                "title": "The Apartment",
-                "text": "The apartment, located in an old town house on the first floor is recently renovated, big enough for 2 to 3 people (36m²). It has living room, kitchen and a bathroom. The living room has two pull-out sofas, one for two people and one for another one, it also has CATV (cabel television) and is air-conditioned. Kitchen is fully equipped with an oven, fridge, freezer, microwave oven, toaster and a dishwasher. In the bathroom there is a big shower and a hairdryer.\nThere is Wi-Fi internet all over the apartment.\nFresh bed linen and towels are available in the apartment on your check-in. Cleaning fee is included in price.\nEverything you need is in walking distance, the citizens are really friendly and children can safely play on the Tartini square, becouse there are no vehicles."
+                "title": "O Apartmaju",
+                "text": "Apartma se naha na prvem nadstropju stare piranske hiše in je dovolj velika za 2-3 osebe (36m²). Sestavljen je iz kuhinje, dnevne sobe in stranišča. Kuhinja je popolno opremljena in ima: pečico, hladilnik z zmrzovalnikom, mikrovalovno pečico, toaster in pomivalni stroj. Dnevna soba ima dva raztegljiva kavča, enega za eno in enega za dve osebi, ima tudi kabelsko televizijo ter klimatsko napravo. V stranišču je velik tuš z šamponom in gelom za telo, poleg tega pa je v stranišču tudi tekoče milo, toaletni papir ter sušilec za lase.\nPo celotnem apartmaju je tudi Wi-fi omrežje.\nSvežo posteljnino dobite ob prihodu, stroški čiščenja pa so všteti že v ceno.\nVse kar potrebujete je v bližini, krajani so prijazni in otroci se lahko varno igrajo na Tartinijevem trgu, saj na njem ni avtomobilov."
             },
             {
-                "title": "Guest Access",
-                "text": "The guests will have access to the apartment on the first floor. They can leave their baby trolleys, children bikes, etc. on the ground floor."
+                "title": "Dostop Gostov",
+                "text": "Gostje bodo imeli na voljo apartma na prvem nadstropju. Svoje vozičke, kolesa, ipd. pa lahko pustijo v pritličju ob dogovoru."
             },
             {
-                "title": "Interaction With Guests",
-                "text": "We are always accessible by telephone and e-mail. Contact us anytime (English/Italian/Slovene)."
+                "title": "Stik Z Gosti",
+                "text": "Zmeraj smo dostopni prek telefona in elektronske pošte, ki jih najdete na zavihku kontakt."
             },
             {
-                "title": "Other Things To Note",
-                "text": "There are also many activities in Piran and it's vicinity such as: rollerblading, hiking, cycling, guided diving, beachvolley, skydiving (aeroport Portorož), wind surfing, minigolf, tennis, swimming pools, saunas, wellness, etc."
+                "title": "Ostalo",
+                "text": "V Piranu se da početi veliko različnih stvari: rolati, hoditi, kolesariti, potapljati, igrati odbojko na mivki, na portoroškem letališču skakati s padalom, surfati, igrati mini golf ali tenis ali pa se sproščati v bazenu, morju, savni, wellness centru,…"
             }
         ]
     },
     "marin": {
-
+        "text_sections": [
+            {
+                "text": "Na novo prenovljeni apartma v centru Pirana, le nekaj korakov od Tartinijevega trga in tržnice."
+            },
+            {
+                "title": "O Apartmaju",
+                "text": "Apartma se nahaja na prvem nadstropju stare piranske hiše in je dovolj velik za 4-6 oseb (58m²).\nIma hodnik, ki povezuje stranišče, dnevno sobo ter spalnico. V stranišču je tuš zs šamponom in gelom za telo, ima pa tudi toaletni papir ter sušilec za lase. V klimatizirani dnevni sobi je miza, raztegljiv kavč za dve osebi ter kabelska televizija. Dnevna soba je povezana z dobro opremljeno kuhinjo. v njej je pečica, hladilnik z zmrzovalnikom, mikrovalovna pečica, naprava za delanje kave, grelec za vodo, toaster ter pomivalni stroj. Spalnica je klimatizirana in ima posteljo ter raztegljiv kavč, ki se spremeni v posteljo za dve osebi.\nPo celotnem apartmaju je tudi Wi-fi omrežje.\nSvežo posteljnino dobite ob prihodu, stroški čiščenja pa so všteti že v ceno.\nVse kar potrebujete je v bližini, krajani so prijazni in otroci se lahko varno igrajo na Tartinijevem trgu, saj na njem ni avtomobilov."
+            },
+            {
+                "title": "Dostop Gostov",
+                "text": "Gostje bodo imeli na voljo apartma na prvem nadstropju. Svoje vozičke, kolesa, ipd. pa lahko pustijo v pritličju ob dogovoru."
+            },
+            {
+                "title": "Stik Z Gosti",
+                "text": "Zmeraj smo dostopni prek telefona in elektronske pošte, ki jih najdete na zavihku kontakt."
+            },
+            {
+                "title": "Ostalo",
+                "text": "V Piranu se da početi veliko različnih stvari: rolati, hoditi, kolesariti, potapljati, igrati odbojko na mivki, na portoroškem letališču skakati s padalom, surfati, igrati mini golf ali tenis ali pa se sproščati v bazenu, morju, savni, wellness centru,…"
+            }
+        ]
     },
     "about_piran": {
-
+        "text": [
+            {
+                "text": "Piran je prelepo obalno mesto na jugozahodu Slovenije. Naseljki okoli sedanjega mesta naj bi nastali že pred letom 200 pred našim štetjem in bili priključeni k Rimskemu Cesarstvu okoli leta 180 pred našim štetjem. Mesto Piran je začelo nastajati v času invazij Avarov in Slovanov, saj so se ljudje počutili bolj varne v večjem in bolj strnjenem mestu, kot vsak posebaj.\nPiran je še posebaj zanimiv zaradi svojih ozkih ulic ter hiš zgranjenih v srednjem veku, ki naredijo edinstveno vzdušje. Mesto je tudi polno prijaznih ljudi in lepih plaž. Zaradi svoje zgodovine in lege ima zato veliko atrakcij, vrednih ogleda:"
+            }
+        ],
+        "tartini": [
+            {
+                "title": "Tartinijev Trg",
+                "text": "Tartinijev trg je osrednji ter največji trg v mestu. Sprva, je na njegovem mestu stal mandrač (notranje pristanišče za ladje in čolne), a so ga zaradi higienskih razlogov leta 1894 pokrili in spremenili v trg. Ta je bil dolgo en pomembnejših delov mesta, saj je bilo okoli njega nekaj zelo pomembnih zgradb, kot so občinska hiša, hiša rojstva Giuseppe Tartinija, Benečanka,… Okoli trga je bilo dolgo časa parkirišče, a so ga ob prenovi trga odstanili in sedaj avtomobilom ni dovoljeno voziti po njem.\nKer avtomobili na njem niso dovoljeni, je trg zelo varen za igro otrok, ob tem pa so lahko starši v bližini, saj je trg poln restavracij in raznih drugih lokalov. Na trgu pa stoji tudi kip znanega violinista in skladatelja Giuseppe Tartinija."
+            }
+        ],
+        "venetian_house": [
+            {
+                "title": "Hiša Benečanka",
+                "text": "Hiša Benečanka je ena najlepših ter najbolj znanih zgrad v Piranu. Leži na robu Tartinijevega trga ter je zgrajena v gotskem stilu 15-tega stoletja. Benečanka je slavela predvsem zaradi svoje živo rdeče barve, ki je pa po prenovi veliko bolj bleda.\n Spremlja jo tudi zgodba, saj jo je zgradil premožen Beneški trgovec Dell Bello za preprosto Pirančanko, v katero se je zaljubil. Zaradi ljubosumja so začeli sovaščani govorice, ki so dekle zelo razžalostile. Par se je zato odločil, da na pročelje hiše da napis: ‘’Lasa pur dir’’ (Naj govorijo).\nDandanes pritličje stavbe služi kot trgovina s Piransko soljo, v prvem nadstopju je pa apartma."
+            }
+        ],
+        "walls": [
+            {
+                "title": "Piransko Obzidje",
+                "text": "Piransko obzidje je zaradi širitve mesta sestavljeno iz treh obzidij. Prvi del obzidja je bil zgrajen v starem delu mestu imenovanem ‘’Punta’’, kamor so se prebivalci zatekli v času nevarnosti, saj so tam imeli utrdbo . Najnovejši del, ki je zgrajen na hribu, pa je nastal v časi turških vpadov.\nV Piranu se je še danes nekaj zelo lepih obzidnih vrat, ki se jih lahko ogleda, najbolj zanimiv pa je del obzidja nad mestom, ki ima lep razgled na cel Piran."
+            }
+        ],
+        "churches": [
+            {
+                "title": "Piranske Cerkve",
+                "text": "V srednjem veku je bilo v Piranu veliko premožnih in vplivnih družin. Veliko teh družin je bilo sprtih med seboj, saj je vsaka želela pokazati, da je ona najpremožnejša in najpomembnejša.\nEn izmed načinov kako so to dosegli je bila gradnja cerkva. Tako je vsaka družina zgradila svojo cerkev in jih ima Piran zato sedaj več kot 10. Vsaka izmed njih je lepa ter nekaj posebnega na svoj način. Razpršene so po celem Piranu, kjer so pod stalno oskrbo piranskega župnišča. Med njimi najbolj izstopata cerkev svetega Jurija ter cerkev v minoritskem samostanu."
+            },
+            {
+                "title": "Cerkev Svetega Jurija",
+                "text": "Cerkev svetega Jurija je največja v Piranu. Nahaja se nad Piranom in ima lep pogled na Piran, še posebaj iz njenega zvonika.\nCerkev je bila zgrajena v renesančnem slogu in je posvečena svetemu Juriju, ki je tudi zavetnik mesta. Cerkev je življensko delo kamnoseka Bonfante Torreja iz Benetk."
+            }
+        ],
+        "vicinity": [
+            {
+                "title": "Druge Zanimivosti Okoli Pirana",
+                "text": "V Piranu je še veliko drugih stvari za obiskat in počet. Zanimivosti, ki si jih je vredno ogledati so še: Portorož, Prvomajski trg, akvarij Piran, Mediadom  Pyrhani, Sečoveljske ter Strunjanske soline, pomorski muzej Sergeja Mašere, jezero v Fiesi… Obiščete lahko tudi lepe plaže, greste na tek, na vožnjo s kolesom ali pa se sprostite v enem izmed mnogih wellness centrov."
+            }
+        ]
     },
     "contact": {
 

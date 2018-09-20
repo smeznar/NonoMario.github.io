@@ -4,64 +4,52 @@
     ],
     "nono_mario": [
         {
-            "dir": "res/nono_mario/dnevna1.jpg",
-            "alt": "Dnevna soba 1",
-            "title" : "Dnevna Soba"
+            "dir": "res/nono_mario/nono_mario16.jpg",
+            "alt": "Dnevna soba 1"
         },
         {
-            "dir": "res/nono_mario/dnevna2.jpg",
-            "alt": "Dnevna soba 2",
-            "description": "Pogled proti kopalnici."
+            "dir": "res/nono_mario/nono_mario17.jpg",
+            "alt": "Dnevna soba 2"
         },
         {
-            "dir": "res/nono_mario/dnevna3.jpg",
-            "alt": "Dnevna soba 3",
-            "title": "Spet Dnevna Soba",
-            "description": "Tokrat pogled na posteljo."
+            "dir": "res/nono_mario/nono_mario18.jpg",
+            "alt": "Dnevna soba 3"
         },
         {
-            "dir": "res/nono_mario/dnevna4.jpg",
+            "dir": "res/nono_mario/nono_mario20.jpg",
+            "alt": "Stranisce 1"
+        },
+        {
+            "dir": "res/nono_mario/nono_mario23.jpg",
+            "alt": "Stranisce 2"
+        },
+        {
+            "dir": "res/nono_mario/nono_mario24.jpg",
             "alt": "Dnevna soba 4"
         },
         {
-            "dir": "res/nono_mario/dnevna5.jpg",
-            "alt": "Dnevna soba 5"
-        },
-        {
-            "dir": "res/nono_mario/dnevna6.jpg",
-            "alt": "Dnevna soba 6"
-        },
-        {
-            "dir": "res/nono_mario/kuhinja1.jpg",
+            "dir": "res/nono_mario/nono_mario25.jpg",
             "alt": "Kuhinja 1"
         },
         {
-            "dir": "res/nono_mario/kuhinja2.jpg",
+            "dir": "res/nono_mario/nono_mario27.jpg",
+            "alt": "Kot v Kuhinji"
+        },
+        {
+            "dir": "res/nono_mario/nono_mario28.jpg",
+            "alt": "Pogled Cez Okno"
+        },
+        {
+            "dir": "res/nono_mario/nono_mario30.jpg",
             "alt": "Kuhinja 2"
         },
         {
-            "dir": "res/nono_mario/kuhinja3.jpg",
+            "dir": "res/nono_mario/nono_mario32.jpg",
             "alt": "Kuhinja 3"
         },
         {
-            "dir": "res/nono_mario/kuhinja4.jpg",
+            "dir": "res/nono_mario/nono_mario34.jpg",
             "alt": "Kuhinja 4"
-        },
-        {
-            "dir": "res/nono_mario/kuhinja5.jpg",
-            "alt": "Kuhinja 5"
-        },
-        {
-            "dir": "res/nono_mario/kot1.jpg",
-            "alt": "Kot v Kuhinji 1"
-        },
-        {
-            "dir": "res/nono_mario/kot2.jpg",
-            "alt": "Kot v Kuhinji 2"
-        },
-        {
-            "dir": "res/nono_mario/kopalnica.jpg",
-            "alt": "Kopalnica"
         }
     ],
     "marin": [

@@ -1,7 +1,7 @@
 body{
     font-family: sans-serif;
     /*background-color:#d5d5d5;*/
-	background-color:#b1d3e3;
+	background-color:#153f65;
 	
 }
 
@@ -19,7 +19,6 @@ nav {
 
 .carousel-item > img {
 	padding-top:10px;
-    width: 60%;
     max-width: 900px;
     height: auto;
     display: block;
@@ -33,31 +32,27 @@ nav {
 	/*#427085 */
     padding-top: 55px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	width:80%;
-	/*color:#03244b;*/
-	color:#03244b;
+	/*color:#03244b; */
 	margin:15px auto;
 }
 
-#ikonce{
+/* Short Description */
+
+.short-description{
 	color:white;
 	font-weight:bold;
 	width:55%;
 	margin:20px auto;
-	border:1px solid white;
+    border:1px solid white;
 }
-#ikonce li{
-	display:inline-block;
-	width:49%;
-	min-width:170px;
-	padding-top:10px;
+
+.short-description-item{
 }
-#ikonce p,#ikonce i{
-	display:inline-block;
-}
-#ikonce i{
-	margin-right:8px;
-	font-size:20px;
+
+.short-description-item > i, .short-description-item p {
+    margin: auto;
+    padding: 7px;
+    display: inline-block;
 }
 
 /* Images */
@@ -65,10 +60,9 @@ nav {
 .single-image{
     display: inline-block;
     /*margin: auto;*/
-    width: 50%;
-    max-width: 800px;
+    width: 100%;
     height: 100%;
-	padding-top:10px;
+    margin: auto;
 }
 
 /* Text Section */
@@ -123,18 +117,12 @@ nav {
 footer {
     background-color: #153f65;
     color: white; 
-	padding-top:10px;
+    padding-top:10px;
+    padding-bottom: 10px;
 }
 
-footer p{
-	display:inline-block;
-	padding-left:10px;
-}
-footer li{
-	list-style:none;
-}
-footer ul {
-	margin-bottom:0;
+.footer-contact{
+    margin: auto;
 }
 
 
@@ -144,11 +132,27 @@ footer ul {
     .language-chooser{
         top: 60px;
     }
+
+    .content-style {
+        width: 80%;
+    }
+
+    .carousel-item > img {
+        width: 60%;
+    }
 }
 
 @media (max-width: 1199.98px) { 
     .language-chooser{
         top: 60px;
+    }
+
+    .content-style {
+        width: 80%;
+    }
+
+    .carousel-item > img {
+        width: 60%;
     }
 }
 
@@ -162,11 +166,17 @@ footer ul {
     .language-chooser{
         top: 60px;
     }
+
+    .carousel-item > img {
+        width: 80%;
+    }
 }
 
-/*
 @media (max-width: 575.98px) { 
-}*/
+    .content-style {
+        width: 100%;
+    }
+}
 
 /* Other */
 

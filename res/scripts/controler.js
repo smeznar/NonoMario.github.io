@@ -60,6 +60,14 @@ function setupOnClickBehaviour() {
                 return;
             }
             current_language = ENGLISH_LANGUAGE;
+            /*$(document).ready(function() {
+                $.get('/path/to/your/file.xml', function(data) {
+                    // Here you can do whatever you want with the data 
+                    $(data).find('option').each(function() {
+                       alert($(this).text());
+                    })
+                });
+            });*/
             text_model = $.getJSON("https://nonomario.github.io/res/texts/english_text.json", function (obj) {
                 setText(obj);
             });
@@ -149,7 +157,7 @@ function setText(model) {
     // Contact
 
     // Footer
-    $('#footer-text').append(model.footer_text);
+    //$('#footer-text').append(model.footer_text);
 }
 
 function addTextToTextSection(model, id) {

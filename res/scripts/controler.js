@@ -12,7 +12,7 @@ function setup() {
 
 function setupOnClickBehaviour() {
     // Navigation
-    $(document).on('click', '#navigation .navigation-item', function (event) {
+    $(document).on('click', '.navigation-item', function (event) {
         $('#content .content-block').hide();
         $('.nav-item').removeClass('active');
         let id = event.target.id;
@@ -21,7 +21,15 @@ function setupOnClickBehaviour() {
                 $('#nono-mario').show();
                 $('#nav-nono-mario').parent().addClass('active');
                 break;
+            case 'nono-mario-card':
+                $('#nono-mario').show();
+                $('#nav-nono-mario').parent().addClass('active');
+                break;
             case 'nav-marin':
+                $('#marin').show();
+                $('#nav-marin').parent().addClass('active');
+                break;
+            case 'marin-card':
                 $('#marin').show();
                 $('#nav-marin').parent().addClass('active');
                 break;
@@ -60,15 +68,7 @@ function setupOnClickBehaviour() {
                 return;
             }
             current_language = ENGLISH_LANGUAGE;
-            /*$(document).ready(function() {
-                $.get('/path/to/your/file.xml', function(data) {
-                    // Here you can do whatever you want with the data 
-                    $(data).find('option').each(function() {
-                       alert($(this).text());
-                    })
-                });
-            });*/
-            text_model = $.getJSON("https://nonomario.github.io/res/texts/english_text.json", function (obj) {
+            text_model = $.getJSON("res/texts/english_text.json", function (obj) {
                 setText(obj);
             });
         } else {
@@ -76,7 +76,7 @@ function setupOnClickBehaviour() {
                 return
             }
             current_language = SLOVENIAN_LANGUAGE;
-            $.getJSON("https://nonomario.github.io/res/texts/slovenian_text.json", function (obj) {
+            $.getJSON("res/texts/slovenian_text.json", function (obj) {
                 setText(obj);
             });
         }

@@ -39,7 +39,7 @@
                     <a id="nav-about-piran" class="nav-link navigation-item text" href="#"></a>
                 </li>
                 <li class="nav-item">
-                    <a id="nav-contact" class="nav-link navigation-item text" href="#"></a>
+                    <a id="nav-contact" class="nav-link text" href="#footer"></a>
                 </li>
             </ul>
         </div>
@@ -49,7 +49,73 @@
     <div style="background-color:#b1d3e3">
         <div id="content" class='content-style'>
             <div id="home" class="content-block" style="display:block">
-                Home
+                <!-- Carousel -->
+                <div class="row no-margin">
+                    <div class="col-12 no-padding">
+                        <div id="carousel-home" class="carousel slide" data-ride="carousel">
+                            <ol id="carousel-home-indicators" class="carousel-indicators"></ol>
+                            <div id="carousel-home-pictures" class="carousel-inner" role="listbox"></div>
+                            <a class="carousel-control-prev" href="#carousel-home" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel-home" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <!-- OPIS -->
+                    <div id="home-text-section" class="row text-section">
+                        If text doesn't appear, try disabling the ad-blocker (temporaly problem that will be solved
+                        soon hopefully)
+                        <br>
+                        Ce se besedilo ne prikaze poizkusite ugasniti ad-blocker za to stran (problem ki bo kmalu resen)
+                    </div>
+                    <!-- Cards-->
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Nono Mario</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                        <img src="res/nono_mario/nono_mario25.jpg" alt="tukaj je slika ponavadi" class="single-image">
+                                    </div>
+                                    <div class="col-lg-8 col-md-6 col-sm-12">
+                                        <p class="card-text">Pridite v ta apartma, zelo je lep in nebo vam zal</p>
+                                        <button id="nono-mario-card" class="btn btn-success navigation-item" href="#">
+                                            Oglejte si ta apartma
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Marin</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 col-sm-12">
+                                            <img src="res/marin/marin7.jpg" alt="tukaj je slika ponavadi" class="single-image">
+                                        </div>
+                                        <div class="col-lg-8 col-md-6 col-sm-12">
+                                            <p class="card-text">Pridite tudi v ta apartma, ta je se novejsi, noro.</p>
+                                            <button id="marin-card" class="btn btn-success navigation-item" href="#">
+                                                    Oglejte si tudi ta apartma
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
             </div>
             <div id="nono-mario" class="content-block" style="display:none">
                 <!-- Carousel -->
@@ -70,6 +136,29 @@
                     </div>
                 </div>
                 <div class="container">
+                    <!-- Short Description-->
+                    <div class="row short-description">
+                        <div class="col-lg-6 col-md-12 col-sm-12 short-description-item">
+                            <i class="fa fa-male"></i>
+                            <p>People: 2</p>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 short-description-item">
+                            <i class="fa fa-bed"></i>
+                            <p>Bedrooms: 1</p>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 short-description-item">
+                            <i class="fa fa-wifi"></i>
+                            <p>Wi-Fi</p>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 short-description-item">
+                            <i class="fa fa-tv"></i>
+                            <p>TV</p>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 short-description-item">
+                            <i class="fa fa-clock-o"></i>
+                            <p>Min. stay: 2 days</p>
+                        </div>
+                    </div>
                     <!-- Description -->
                     <div id="nono-mario-text-section" class="row text-section text"></div>
                     <!-- Map -->
@@ -104,25 +193,25 @@
                 <div class="container">
                     <!-- Short Description-->
                     <div class="row short-description">
-                        <div class="col-lg-6 col-md-6 col-sm-12 short-description-item">
+                        <div class="col-lg-6 col-md-12 col-sm-12 short-description-item">
                             <i class="fa fa-male"></i>
                             <p>People: 4</p>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 short-description-item">
+                        <div class="col-lg-6 col-md-12 col-sm-12 short-description-item">
                             <i class="fa fa-bed"></i>
                             <p>Bedrooms: 2</p>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 short-description-item">
+                        <div class="col-lg-6 col-md-12 col-sm-12 short-description-item">
                             <i class="fa fa-wifi"></i>
                             <p>Wi-Fi</p>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 short-description-item">
+                        <div class="col-lg-6 col-md-12 col-sm-12 short-description-item">
                             <i class="fa fa-tv"></i>
                             <p>TV</p>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 short-description-item">
+                        <div class="col-lg-6 col-md-12 col-sm-12 short-description-item">
                             <i class="fa fa-clock-o"></i>
-                            <p>Min.stay: 2 days</p>
+                            <p>Min. stay: 2 days</p>
                         </div>
                     </div>
                     <!-- Description-->
@@ -185,6 +274,7 @@
                         <div id="vicinity" class="text-section text"></div>
                         <!--<img src="res/about_piran/vicinity.jpg" class="single-image" alt="Piran">-->
                     </div>
+                    <!-- Add Links and make better looking 
                     <hr>
                     <div id="more">
                         <ul>
@@ -195,8 +285,7 @@
                                 </div>
                             </li>
                         </ul>
-                        <!-- Add Links and make better looking -->
-                    </div>
+                    </div>-->
                 </div>
             </div>
             <div id="contact" class="content-block" style="display:none">
@@ -217,7 +306,7 @@
             <li><a id="sloveninan-lang" style="margin-left:10px" href="#">Slovenian</a></li>
         </ul>
     </div>
-    <footer>
+    <footer id="footer">
         <div class="container">
             <!--<p>Contact:</p>-->
             <div class="row">

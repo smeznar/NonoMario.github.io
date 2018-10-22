@@ -46,7 +46,7 @@ function setupOnClickBehaviour() {
                 $('#nav-home').parent().addClass('active');
         }
 
-        if ($(window).width() <= 970 && id != 'brand-text') {
+        if ($(window).width() <= 970 && !(id == 'brand-text' || id == 'nono-mario-card' || id == 'marin-card')) {
             $('.navbar-toggler').click();
         }
     });
@@ -68,15 +68,7 @@ function setupOnClickBehaviour() {
                 return;
             }
             current_language = ENGLISH_LANGUAGE;
-            /*$(document).ready(function() {
-                $.get('/path/to/your/file.xml', function(data) {
-                    // Here you can do whatever you want with the data 
-                    $(data).find('option').each(function() {
-                       alert($(this).text());
-                    })
-                });
-            });*/
-            text_model = $.getJSON("https://nonomario.github.io/res/texts/english_text.json", function (obj) {
+            text_model = $.getJSON("res/texts/english_text.json", function (obj) {
                 setText(obj);
             });
         } else {
@@ -84,7 +76,7 @@ function setupOnClickBehaviour() {
                 return
             }
             current_language = SLOVENIAN_LANGUAGE;
-            $.getJSON("https://nonomario.github.io/res/texts/slovenian_text.json", function (obj) {
+            $.getJSON("res/texts/slovenian_text.json", function (obj) {
                 setText(obj);
             });
         }
@@ -95,17 +87,15 @@ function setupOnClickBehaviour() {
 // Carousel
 
 function setupCarousels() {
-    $.getJSON("https://nonomario.github.io/res/carousel_picture_dirs.json", function (obj) {
+    $.getJSON("res/carousel_picture_dirs.json", function (obj) {
         setPictures(obj.nono_mario, 'nono-mario');
         setPictures(obj.marin,'marin');
         setPictures(obj.about_piran,'about-piran');
+        setPictures(obj.home, "home")
     });
 }
 
 function setPictures(model, id) {
-    // Home
-
-    // Nono Mario
     let count = 0
     model.forEach(function (element) {
         $('#carousel-' + id + '-indicators').append('<li data-target="#carousel-' + id + '" data-slide-to="' + count + '"></li>');
@@ -144,6 +134,8 @@ function setText(model) {
     $('#nav-contact').append(model.navigation.contact);
 
     // Home
+
+    addTextToTextSection(model.home.text_sections, '#home-text-section');
 
     // Nono Mario
 

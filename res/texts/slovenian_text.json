@@ -9,7 +9,15 @@
         "contact": "Kontakt"
     },
     "home": {
-
+        "text_sections": [
+            {
+                "text": "Apartmaji nono mario so apartmaji za katere skrbijo Domen, Julija in njuna druzina..."
+            },
+            {
+                "title": "O Nas",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at tempor tellus. Sed dapibus viverra urna. Sed auctor sagittis nulla, ut dictum risus lobortis sed. Nam et ornare ex, et imperdiet nulla. Phasellus a diam vel justo laoreet efficitur. Nunc odio felis, consequat condimentum scelerisque nec, vulputate et turpis. Ut nec velit at orci mollis feugiat. Vivamus ultrices aliquet orci nec tempor. Quisque sit amet blandit urna. In nibh nulla, placerat eget egestas id, elementum a mauris. Suspendisse pharetra vel tortor convallis bibendum. Aenean posuere, ex ut scelerisque dignissim, sem felis euismod nisl, eu vehicula odio orci sagittis magna. Proin ante ligula, dapibus vel porta vestibulum, volutpat id dolor. Mauris vestibulum pellentesque tincidunt."
+            }
+        ]
     },
     "nono_mario": {
         "text_sections": [

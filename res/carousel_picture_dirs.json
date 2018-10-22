@@ -1,6 +1,13 @@
 {
     "home": [
-
+        {
+            "dir": "res/nono_mario/nono_mario16.jpg",
+            "alt": "Dnevna soba 1"
+        },
+        {
+            "dir": "res/nono_mario/nono_mario17.jpg",
+            "alt": "Dnevna soba 2"
+        }
     ],
     "nono_mario": [
         {

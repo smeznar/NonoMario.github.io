@@ -68,7 +68,15 @@ function setupOnClickBehaviour() {
                 return;
             }
             current_language = ENGLISH_LANGUAGE;
-            text_model = $.getJSON("res/texts/english_text.json", function (obj) {
+            /*$(document).ready(function() {
+                $.get('/path/to/your/file.xml', function(data) {
+                    // Here you can do whatever you want with the data 
+                    $(data).find('option').each(function() {
+                       alert($(this).text());
+                    })
+                });
+            });*/
+            text_model = $.getJSON("https://nonomario.github.io/res/texts/english_text.json", function (obj) {
                 setText(obj);
             });
         } else {
@@ -76,7 +84,7 @@ function setupOnClickBehaviour() {
                 return
             }
             current_language = SLOVENIAN_LANGUAGE;
-            $.getJSON("res/texts/slovenian_text.json", function (obj) {
+            $.getJSON("https://nonomario.github.io/res/texts/slovenian_text.json", function (obj) {
                 setText(obj);
             });
         }
@@ -87,7 +95,7 @@ function setupOnClickBehaviour() {
 // Carousel
 
 function setupCarousels() {
-    $.getJSON("/res/carousel_picture_dirs.json", function (obj) {
+    $.getJSON("https://nonomario.github.io/res/carousel_picture_dirs.json", function (obj) {
         setPictures(obj.nono_mario, 'nono-mario');
         setPictures(obj.marin,'marin');
         setPictures(obj.about_piran,'about-piran');

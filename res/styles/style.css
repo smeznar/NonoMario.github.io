@@ -31,9 +31,18 @@ nav {
     background-color: #3b89ac;
 	/*#427085 */
     padding-top: 55px;
+    padding-bottom: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	/*color:#03244b; */
-	margin:15px auto;
+    margin:15px auto;
+}
+
+.card{
+    margin: 10px;
+}
+
+.card > .card-header > h4 {
+    margin: 0;
 }
 
 /* Short Description */

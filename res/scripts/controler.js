@@ -13,15 +13,17 @@ function setup() {
 function setupOnClickBehaviour() {
     // Navigation
     $(document).on('click', '.navigation-item', function (event) {
-        $('#content .content-block').hide();
-        $('.nav-item').removeClass('active');
         let id = event.target.id;
+        if(id != 'nav-contact'){
+            $('#content .content-block').hide();
+            $('.nav-item').removeClass('active');
+        }
         switch (id) {
             case 'nav-nono-mario':
                 $('#nono-mario').show();
                 $('#nav-nono-mario').parent().addClass('active');
                 break;
-            case 'nono-mario-card':
+            case 'nono-mario-card-button':
                 $('#nono-mario').show();
                 $('#nav-nono-mario').parent().addClass('active');
                 break;
@@ -29,7 +31,7 @@ function setupOnClickBehaviour() {
                 $('#marin').show();
                 $('#nav-marin').parent().addClass('active');
                 break;
-            case 'marin-card':
+            case 'marin-card-button':
                 $('#marin').show();
                 $('#nav-marin').parent().addClass('active');
                 break;
@@ -38,15 +40,15 @@ function setupOnClickBehaviour() {
                 $('#nav-about-piran').parent().addClass('active');
                 break;
             case 'nav-contact':
-                $('#contact').show();
-                $('#nav-contact').parent().addClass('active');
+                //$('#contact').show();
+                //$('#nav-contact').parent().addClass('active');
                 break;
             default:
                 $('#home').show();
                 $('#nav-home').parent().addClass('active');
         }
 
-        if ($(window).width() <= 970 && !(id == 'brand-text' || id == 'nono-mario-card' || id == 'marin-card')) {
+        if ($(window).width() <= 770 && !(id == 'brand-text' || id == 'nono-mario-card-button' || id == 'marin-card-button')) {
             $('.navbar-toggler').click();
         }
     });
@@ -136,6 +138,13 @@ function setText(model) {
     // Home
 
     addTextToTextSection(model.home.text_sections, '#home-text-section');
+    $('#nono-mario-card-header').append(model.home.nono_mario_card.header);
+    $('#nono-mario-card-content').append(model.home.nono_mario_card.content);
+    $('#nono-mario-card-button').append(model.home.nono_mario_card.button_text);
+    $('#marin-card-header').append(model.home.nono_mario_card.header);
+    $('#marin-card-content').append(model.home.nono_mario_card.content);
+    $('#marin-card-button').append(model.home.nono_mario_card.button_text);
+
 
     // Nono Mario
 
@@ -157,7 +166,8 @@ function setText(model) {
     // Contact
 
     // Footer
-    //$('#footer-text').append(model.footer_text);
+    $('#footer-contacts').append(model.footer.contacts);
+    $('#footer-booking').append(model.footer.booking_info);
 }
 
 function addTextToTextSection(model, id) {

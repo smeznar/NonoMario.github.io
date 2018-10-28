@@ -39,12 +39,25 @@ nav {
 
 .card{
     margin: 10px;
+    border-color: #153f65;
+}
+
+.card p{
+    color: white;
+}
+
+.card > .card-header{
+    background-color: #153f65
 }
 
 .card > .card-header > h4 {
     margin: 0;
+    color: white;
 }
 
+.card > .card-body{
+    background-color: #153f65dd;
+}
 /* Short Description */
 
 .short-description{

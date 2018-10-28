@@ -130,8 +130,8 @@ footer {
     padding-bottom: 10px;
 }
 
-.footer-contact{
-    margin: auto;
+.footer-contact a:any-link{
+    color: lightblue;
 }
 
 
@@ -178,6 +178,10 @@ footer {
 
     .carousel-item > img {
         width: 80%;
+    }
+
+    .booking-info {
+        margin-top: 15px;
     }
 }
 

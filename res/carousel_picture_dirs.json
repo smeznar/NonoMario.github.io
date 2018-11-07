@@ -1,12 +1,36 @@
 {
     "home": [
         {
-            "dir": "res/nono_mario/nono_mario16.jpg",
-            "alt": "Dnevna soba 1"
+            "dir": "res/home/apartma4.jpg",
+            "alt": "Piran"
         },
         {
-            "dir": "res/nono_mario/nono_mario17.jpg",
-            "alt": "Dnevna soba 2"
+            "dir": "res/home/apartma10.jpg",
+            "alt": "Piran"
+        },
+        {
+            "dir": "res/home/apartma12.jpg",
+            "alt": "Piran"
+        },
+        {
+            "dir": "res/home/apartma15.jpg",
+            "alt": "Piran"
+        },
+        {
+            "dir": "res/home/apartma16.jpg",
+            "alt": "Piran"
+        },
+        {
+            "dir": "res/home/apartma17.jpg",
+            "alt": "Piran"
+        },
+        {
+            "dir": "res/home/apartma20.jpg",
+            "alt": "Piran"
+        },
+        {
+            "dir": "res/home/apartma23.jpg",
+            "alt": "Piran"
         }
     ],
     "nono_mario": [

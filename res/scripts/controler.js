@@ -141,9 +141,9 @@ function setText(model) {
     $('#nono-mario-card-header').append(model.home.nono_mario_card.header);
     $('#nono-mario-card-content').append(model.home.nono_mario_card.content);
     $('#nono-mario-card-button').append(model.home.nono_mario_card.button_text);
-    $('#marin-card-header').append(model.home.nono_mario_card.header);
-    $('#marin-card-content').append(model.home.nono_mario_card.content);
-    $('#marin-card-button').append(model.home.nono_mario_card.button_text);
+    $('#marin-card-header').append(model.home.marin_card.header);
+    $('#marin-card-content').append(model.home.marin_card.content);
+    $('#marin-card-button').append(model.home.marin_card.button_text);
 
 
     // Nono Mario

@@ -58,14 +58,16 @@ nav {
 .card > .card-body{
     background-color: #153f65dd;
 }
+
 /* Short Description */
 
 .short-description{
 	color:white;
 	font-weight:bold;
-	width:55%;
-	margin:20px auto;
-    border:1px solid white;
+	width:100%;
+	margin-bottom:10px;
+	margin-left:5px;
+    //border:1px solid white;
 }
 
 .short-description-item{
@@ -145,6 +147,8 @@ footer {
 
 .footer-contact a:any-link{
     color: lightblue;
+	margin-left:10px;
+	line-height: 1.8;
 }
 
 

@@ -6,6 +6,7 @@
         "nono_mario": "Nono Mario",
         "marin": "Marin",
         "about_piran": "O Piranu",
+        "reviews": "Mnenja in Hišna Pravila",
         "contact": "Kontakt"
     },
     "home": {
@@ -15,7 +16,7 @@
             },
             {
                 "title": "O Nas",
-                "text": "Dragi gostje, želimo vas pozdraviti in vam zaželeti dobrodošlico v naših apartmajih »Nono Mario«. \n Z dejavnostjo sobodajalstva smo se pričeli ukvarjati šele pred nekaj leti po naključju in ugotovili, da nam je spoznavanje gostov in njihovih navad iz različnega konca sveta pisano na kožo. Apartmaji »Nono Mario« se nahajajo na dveh lokacijah v centru Pirana. Do plaže, trgovin, tržnice, lokalov, restavracij, muzejev, Tartinijevega trga ali avtobusne postaje boste rabili le nekaj minut. Oba apartmaja sta prenovljena in v celoti opremljena.\n Vse kar potrebujete je v bližini, krajani so prijazni in otroci se lahko varno igrajo na Tartinijevem trgu, saj na njem ni avtomobilov. V poletnem času se na Tartinijev trgu odvija veliko dogodkov, koncertov in sejmov. Več na: <a href='https://www.portoroz.si/si/odkrij/piran/dogodki' target='_blank'>Dogodki Piran</a> \n Veselimo se vašega obiska in upamo, da boste uživali v čaru Pirana.\nDružina Mežnar"
+                "text": "Dragi gostje, želimo vas pozdraviti in vam zaželeti dobrodošlico v naših apartmajih »Nono Mario«. \n Z dejavnostjo sobodajalstva smo se pričeli ukvarjati šele pred nekaj leti po naključju in ugotovili, da nam je spoznavanje gostov in njihovih navad iz različnega konca sveta pisano na kožo. Apartmaji »Nono Mario« se nahajajo na dveh lokacijah v centru Pirana. Do plaže, trgovin, tržnice, lokalov, restavracij, muzejev, Tartinijevega trga ali avtobusne postaje boste rabili le nekaj minut. Oba apartmaja sta prenovljena in v celoti opremljena.\n Vse kar potrebujete je v bližini, krajani so prijazni in otroci se lahko varno igrajo na Tartinijevem trgu, saj na njem ni avtomobilov. V poletnem času se na Tartinijev trgu odvija veliko dogodkov, koncertov in sejmov. Več na: <a href='https://www.portoroz.si/en/experience/events' target='_blank'>Dogodki Piran</a> \n Veselimo se vašega obiska in upamo, da boste uživali v čaru Pirana.\nDružina Mežnar"
             }
         ],
         "nono_mario_card": {
@@ -115,6 +116,16 @@
                 "text": "V Piranu je še veliko drugih stvari za obiskat in počet. Zanimivosti, ki si jih je vredno ogledati so še: Portorož, Prvomajski trg, akvarij Piran, Mediadom  Pyrhani, Sečoveljske ter Strunjanske soline, pomorski muzej Sergeja Mašere, jezero v Fiesi… Obiščete lahko tudi lepe plaže, greste na tek, na vožnjo s kolesom ali pa se sprostite v enem izmed mnogih wellness centrov."
             }
         ]
+    },
+    "reviews":{
+        "review_text_section":{
+            "title": "Mnenja",
+            "text": "Tukaj si lahko ogledate nekaj mnenj gostov, ki so nas obiskali."
+        },
+        "house_rules_text_section":{
+            "title": "Hišni Red",
+            "text": "Tukaj se nahajajo hišna pravila v angleščini in slovenščini."
+        }
     },
     "contact": {
 

@@ -6,6 +6,7 @@
         "nono_mario": "Nono Mario",
         "marin": "Marin",
         "about_piran": "About Piran",
+        "reviews": "Reviews and House Rules",
         "contact": "Contact"
     },
     "home": {
@@ -15,7 +16,7 @@
             },
             {
                 "title": "About us",
-                "text": "Dear guests, we would like to wish you a warm welcome in our »Nono Mario« apartments.\nWe started with the activity of renting only a few years ago by chance and found that we enjoy meeting the guests and learning about their habits from different parts of the world.\n Apartments »Nono Mario« are located in two locations in the center of Piran. You will only need a few minutes to reach the beach, shops, food market, cafes, restaurants, museum, Tartini Square or bus station. Both apartments are newly renovated and fully equipped. \nAll you need is near, the citizens are really friendly and children can safely play on Tartini Square, as there are no cars on it. During the summer many events, concerts and fairs take place on Tartini Square. More at: <a href='https://www.portoroz.si/si/enter/piran/dogodki' target='_blank'> Events Piran </a> \nWe are very excited for you to stay at our apartments »Nono Mario« and hope that you enjoy your time in beautiful Piran. \nFamily Mežnar"
+                "text": "Dear guests, we would like to wish you a warm welcome in our »Nono Mario« apartments.\nWe started with the activity of renting only a few years ago by chance and found that we enjoy meeting the guests and learning about their habits from different parts of the world.\n Apartments »Nono Mario« are located in two locations in the center of Piran. You will only need a few minutes to reach the beach, shops, food market, cafes, restaurants, museum, Tartini Square or bus station. Both apartments are newly renovated and fully equipped. \nAll you need is near, the citizens are really friendly and children can safely play on Tartini Square, as there are no cars on it. During the summer many events, concerts and fairs take place on Tartini Square. More at: <a href='https://www.portoroz.si/en/experience/events' target='_blank'> Events Piran </a> \nWe are very excited for you to stay at our apartments »Nono Mario« and hope that you enjoy your time in beautiful Piran. \nFamily Mežnar"
             }
         ],
         "nono_mario_card": {
@@ -115,6 +116,16 @@
                 "text": "There are a lot more places to visit and a lot more activities in Piran and it’s surroundings. Places like: Portorož, First of May square, aquarium Piran, Mediahouse Pyrhani, salt pans, maritime museum Sergej Mašera, Fiesa lake… You can also go to one of the nice beaches, go jogging, for a bike ride or relax in one of the wellness centers."
             }
         ]
+    },
+    "reviews":{
+        "review_text_section":{
+            "title": "Reviews",
+            "text": "Here are some written reviews from our previous guests."
+        },
+        "house_rules_text_section":{
+            "title": "House Rules",
+            "text": "Here are the the house rules in English and Slovene language."
+        }
     },
     "contact": {
 

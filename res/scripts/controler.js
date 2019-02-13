@@ -39,6 +39,10 @@ function setupOnClickBehaviour() {
                 $('#about-piran').show();
                 $('#nav-about-piran').parent().addClass('active');
                 break;
+            case 'nav-reviews':
+                $('#reviews').show();
+                $('#nav-reviews').parent().addClass('active');
+                break;
             case 'nav-contact':
                 //$('#contact').show();
                 //$('#nav-contact').parent().addClass('active');
@@ -133,7 +137,8 @@ function setText(model) {
     $('#nav-nono-mario').append(model.navigation.nono_mario);
     $('#nav-marin').append(model.navigation.marin);
     $('#nav-about-piran').append(model.navigation.about_piran);
-    $('#nav-contact').append(model.navigation.contact);
+    $('#nav-reviews').append(model.navigation.reviews);
+    $('#nav-contact').append(model.navigation.contact); 
 
     // Home
 
@@ -163,6 +168,9 @@ function setText(model) {
     addTextToTextSection(model.about_piran.churches, '#churches');
     addTextToTextSection(model.about_piran.vicinity, '#vicinity');
 
+    // Reviews
+    addTextToTextSection(model.reviews.review_text_section, '#reviews-text');
+    addTextToTextSection(model.reviews.house_rules_text_section, '#house-rules-text');
     // Contact
 
     // Footer

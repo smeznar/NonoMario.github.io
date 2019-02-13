@@ -55,6 +55,7 @@ function setupOnClickBehaviour() {
         if ($(window).width() <= 770 && !(id == 'brand-text' || id == 'nono-mario-card-button' || id == 'marin-card-button')) {
             $('.navbar-toggler').click();
         }
+        window.scrollTo(0, 0);
     });
 
     // Map

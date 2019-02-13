@@ -6,7 +6,7 @@
         "nono_mario": "Nono Mario",
         "marin": "Marin",
         "about_piran": "O Piranu",
-        "reviews": "Mnenja in Hišna Pravila",
+        "reviews": "Mnenja in Pravila",
         "contact": "Kontakt"
     },
     "home": {
@@ -118,14 +118,14 @@
         ]
     },
     "reviews":{
-        "review_text_section":{
+        "review_text_section":[{
             "title": "Mnenja",
             "text": "Tukaj si lahko ogledate nekaj mnenj gostov, ki so nas obiskali."
-        },
-        "house_rules_text_section":{
+        }],
+        "house_rules_text_section":[{
             "title": "Hišni Red",
             "text": "Tukaj se nahajajo hišna pravila v angleščini in slovenščini."
-        }
+        }]
     },
     "contact": {
 

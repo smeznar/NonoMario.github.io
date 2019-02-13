@@ -118,14 +118,14 @@
         ]
     },
     "reviews":{
-        "review_text_section":{
+        "review_text_section":[{
             "title": "Reviews",
             "text": "Here are some written reviews from our previous guests."
-        },
-        "house_rules_text_section":{
+        }],
+        "house_rules_text_section":[{
             "title": "House Rules",
             "text": "Here are the the house rules in English and Slovene language."
-        }
+        }]
     },
     "contact": {
 

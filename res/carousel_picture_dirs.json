@@ -207,16 +207,36 @@
     ],
     "about_piran": [
         {
-            "dir": "res/about_piran/benecanka.jpg",
-            "alt": "Benecanka"
+            "dir": "res/about_piran/new_pics1.jpg",
+            "alt": "piran"
         },
         {
-            "dir": "res/about_piran/tartinijev_trg.jpg",
-            "alt": "Tartinijev Trg"
+            "dir": "res/about_piran/new_pics2.jpg",
+            "alt": "piran"
         },
         {
-            "dir": "res/about_piran/obzidje.jpg",
-            "alt": "Tartinijev Trg"
+            "dir": "res/about_piran/new_pics3.jpg",
+            "alt": "piran"
+        },
+        {
+            "dir": "res/about_piran/new_pics4.jpg",
+            "alt": "piran"
+        },
+        {
+            "dir": "res/about_piran/new_pics5.jpg",
+            "alt": "piran"
+        },
+        {
+            "dir": "res/about_piran/new_pics6.jpg",
+            "alt": "piran"
+        },
+        {
+            "dir": "res/about_piran/new_pics7.jpg",
+            "alt": "piran"
+        },
+        {
+            "dir": "res/about_piran/new_pics8.jpg",
+            "alt": "piran"
         }
     ]
 }

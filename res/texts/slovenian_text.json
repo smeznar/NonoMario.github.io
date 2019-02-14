@@ -22,12 +22,12 @@
         "nono_mario_card": {
             "header": "Apartma Nono Mario",
             "content": "Manjši od dveh apartmajev, z veliko čarma in eno izmed boljših ocen v Piranu.",
-            "button_text": "vec"
+            "button_text": "več"
         },
         "marin_card": {
-            "header": "Apartma Nono Mario - Marin",
+            "header": "Apartma Marin",
             "content": "Novejši apartma, ki se nahaja v centru Pirana",
-            "button_text": "vec"
+            "button_text": "več"
         }
     },
     "nono_mario": {

@@ -208,6 +208,12 @@ footer {
 }
 
 /* Other */
+.image-padding{
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+}
 
 .no-margin{
     margin-left: 0px;
@@ -220,5 +226,9 @@ footer {
 }
 
 a:link {
+    color: lightblue;
+}
+
+a:visited {
     color: lightblue;
 }

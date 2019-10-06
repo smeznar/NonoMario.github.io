@@ -12,6 +12,7 @@ function setup() {
 
 function setupOnClickBehaviour() {
     // Navigation
+    /*
     $(document).on('click', '.navigation-item', function (event) {
         let id = event.target.id;
         if(id != 'nav-contact'){
@@ -56,7 +57,7 @@ function setupOnClickBehaviour() {
             $('.navbar-toggler').click();
         }
         window.scrollTo(0, 0);
-    });
+    });*/
 
     // Map
     $('.map-container')
